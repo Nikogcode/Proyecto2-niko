@@ -264,10 +264,108 @@ footer{
 
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 70px;
+    background-color: #35424a;
+    height: 220px;
+    width: 400px;
+    transform: translateX(-100px);
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .section-servicios{
 
     display: flex;
+    justify-content: space-around;
+}
+
+.titulo-servicios{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.titulos-cuadros{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.titulo2-servicios{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.cuadros-servicios{
+
+    background-color: #e6e6e6;
+    height: 160px;
+    width: 900px;
+    border: solid 1px #d0d0d0;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 6px;
+}
+
+.textos-cuadros{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+}
+
+.texto-cuadrito{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.textos1-cuadros{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-contacto{
+
+    height: 500px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.formulario{
+    
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.formulario-contacto input{
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 35px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.titulo-contacto{
+
+    font-size: 21px;
+    font-weight: bold;
+}
+.mensaje-form input{
+
+    height: 150px;
+}
+.boton-formulario{
+
+    width: 1000px;
+    height: 35px;
+    background-color: #e8491d;
+    border: none;
+    color: white;
 }
